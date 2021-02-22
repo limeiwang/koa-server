@@ -2,13 +2,13 @@
 // 设置配置文件
 const config = {
     // 启动端口
-    port: 3000,
+    port: 8888,
   
     // 数据库配置
     database: {
-      DATABASE: 'ceshi',
+      DATABASE: 'lmw',
       USERNAME: 'root',
-      PASSWORD: 'Li010158',
+      PASSWORD: '111111',
       PORT: '3306',
       HOST: 'localhost'
     }

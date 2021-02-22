@@ -15,7 +15,7 @@ class Mysql {
     }
     query () {
       return new Promise((resolve, reject) => {
-        pool.query('SELECT * from ceshidata', function (error, results, fields) {
+        pool.query('SELECT * from users', function (error, results, fields) {
             if (error) {
                 throw error
             };
@@ -23,7 +23,6 @@ class Mysql {
             // console.log('The solution is: ', results[0].solution);
         });
       })
-       
     }
 }
  
