@@ -49,7 +49,7 @@ router.post('/signin', async (ctx, next) => {
 });
 
 router.get('/login', async (ctx, next) => {
-    ctx.response.body = await mysql.query();
+	ctx.response.body = await mysql.query();
 });
 
 // add middleware:
