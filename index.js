@@ -5,7 +5,7 @@ const bodyParser = require('koa-bodyparser');
 const config = require('./config/default')
 const mysql = require('./mysql')
  
-const app =  new Koa()
+const app =  new Koa();
  
 // app.use(async (ctx) => {
 //     let data = await mysql.query()
